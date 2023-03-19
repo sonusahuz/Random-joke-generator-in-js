@@ -32,12 +32,12 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -70%);
 }
 
 @media (max-width: 600px) {
   .mynote {
-    width: 400px;
+    width: 250px;
   }
   .note {
     width: 290px;
