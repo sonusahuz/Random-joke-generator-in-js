@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: blueviolet;
+  color: white;
+  margin-top: 20px;
+  text-transform: capitalize;
+  border: 0;
+  border-radius: 2px;
+}
+.mynote {
+  background-color: white;
+  width: 400px;
+  margin: 15px 20px;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 150px;
+  box-shadow: 0px 3px 10px rgba(0 0 0 /0.2);
+}
+
+.flex {
+  /*   display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+  .mynote {
+    width: 400px;
+  }
+  .note {
+    width: 290px;
+  }
+  input {
+    width: 180px;
+    padding: 10px;
+  }
+  button {
+    padding: 12px 10px;
+    color: white;
+    margin-left: 0px;
+  }
+  .mynote {
+    margin: 120px -20px;
+  }
+}
